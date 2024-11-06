@@ -1,8 +1,12 @@
 # Strip Subscription Integration (MERN)
 
+<img href="./backend/assests/Strip-MERN-backend.png"/>
+
 Welcome to the Stripe Subscription Integration project! This application showcases how to implement subscription functionality using Stripe in a MERN (MongoDB, Express, React, Node.js) stack. This documentation will guide you through the setup, usage, and features of the application.
 
 ## Table of Contents
+
+
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
