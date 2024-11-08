@@ -6,6 +6,7 @@ const priceRoutes = require('./routes/priceRoutes');
 const couponRoutes = require('./routes/couponRoutes');
 const subscriptionRoutes = require('./routes/subscriptionRoutes');
 const webhookRoutes = require('./routes/webhookRoutes');
+const productRoutes = require('./routes/productRoutes');
 const cors = require('cors');
 dotenv.config();
 
@@ -23,6 +24,7 @@ app.use('/api', subscriptionRoutes);
 app.use('/api', webhookRoutes);
 app.use('/api', checkoutRoutes);
 app.use('/api', couponRoutes)
+app.use('/api', productRoutes)
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
